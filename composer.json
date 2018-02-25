@@ -1,0 +1,25 @@
+{
+    "name": "openpsa/createphp",
+    "type": "midcom-package",
+    "description": "CreatePHP adapter for midcom",
+    "keywords": ["rdfa", "createphp", "midcom"],
+    "homepage": "http://createphp.org/",
+    "license": "LGPL-2.1-or-later",
+    "authors": [
+        {
+            "name": "Andreas Flack",
+            "email": "flack@contentcontrol-berlin.de",
+            "homepage": "http://www.contentcontrol-berlin.de/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "openpsa/midcom": "^9.3.0",
+        "midgard/createphp": "^1.1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
